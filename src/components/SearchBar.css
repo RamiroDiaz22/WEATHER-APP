@@ -1,0 +1,39 @@
+.busqueda-serachBar {
+width: 32vw;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #fdfd96;
+border-radius: 20px;
+}
+
+.busqueda-serachBar:hover {
+    box-shadow: -2px 3px 6px #c6c6c6;
+}
+
+.barra-serachBar {
+    border: none;
+    width: 75%;
+    height: auto;
+    color: #19191b;
+    background-color:  transparent;
+    outline: none;
+    margin-left: 13px;
+}
+
+.btn-serachBar {
+    border-left: #9aa0a6;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    width: 20%;
+    height: auto;
+    background-color: transparent;
+    color: rgb(99, 99, 99);
+    border: none;
+}
+
+.btn-serachBar:hover {
+    border-left: 1px solid #9aa0a6;
+}

@@ -1,0 +1,153 @@
+.fondo-card{
+    float: left;
+    width: 270px;
+    height: 280px;
+    background-color: #7fffd4;
+    margin-left: 20px;
+    margin-top: 13px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: -1px 1px 7px #c6c6c6;
+    /* padding-bottom: 0; */
+}
+
+.fondo-card p{
+    color: #141f24c4
+}
+
+.fondo-card:hover{
+    transition: 0.3s;
+    position: sticky;
+    width: 280px;
+    height: 290px;
+    box-shadow: -2px 2px 7px #c6c6c6;
+}
+
+.fondo-card a{
+    text-decoration:none;
+}
+
+.contenedor-card {
+    width: 270px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:  #fdfd96;
+    
+}
+
+.fondo-card:hover .contenedor-card{
+    transition: 0.3s;
+    width: 280px;
+    height: 240px;
+}
+
+.rami-card{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.titulo-card {
+    font-family: 'Playfair Display', serif;
+    color: #19191b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contenido-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.btn-card {
+    margin-left: 193px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #b43f43cc;
+    font-weight: 700;
+    color: #19191b;
+    border: none;
+}
+
+.btn-card:hover {
+    background-color: #942f32;
+}
+
+.datos-card{
+    width:145px; 
+    margin-bottom: 0;
+}
+ 
+.text-card {
+    color: #19191b;
+    font-size: 17px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.valor-card {
+    color: #19191b;
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+
+.detalle-card{
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 5px;
+    border: solid 2px rgba(204, 102, 102, 0.384);
+    border-radius: 20px;
+    background-color: rgba(204, 102, 102, 0.384);
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.detalle-card:hover{
+    background-color: transparent;
+}
+
+.detalle-card:hover p{
+    transition: .3s;
+    color: rgba(204, 102, 102, 0.555);
+}
+
+.contenedor-img-logos-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.logos-card{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sT-card{
+    margin-top: 24px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.logos-tamaño-card{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.logos-valor-card{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* .img-card{
+   
+} */

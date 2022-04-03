@@ -1,0 +1,131 @@
+#App {
+  height: 100vmax;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #33b98c;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .3s ease all;
+}
+
+.dark-mode{
+  transition: .5ms;
+  background: #202124 !important;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.dark-mode .switch-btnSwitch::after{
+  transition: .5s ease all;
+  background-color: orange;
+  color: #000;
+  left: unset;
+  right: 0;
+}
+
+.dark-mode .fondo-duplicado{
+  background-color:#19191b;
+  box-shadow: -9px 7px 10px black !important; 
+}
+
+.dark-mode .fondo-card h5{
+  color: #f1f1f1;
+}
+
+.dark-mode .fondo-card p{
+  color: #f1f1f1;
+}
+
+.dark-mode .contenedor-duplicado{
+  background-color:  #141f24;
+  color: #f1f1f1;
+}
+
+.dark-mode .btn-card{
+  background-color: #303134;
+  color: #f1f1f1;
+}
+
+.dark-mode .btn-card:hover{
+  background-color: #303134;
+  box-shadow: -4px 2px 5px #000;
+}
+
+.dark-mode .detalle-card{
+  border: solid 2px #303134;
+  background-color: #3031349c;
+}
+
+.dark-mode .detalle-card:hover p{
+  color: #303134;
+}
+
+.dark-mode .contenedor-img-logos-card{
+  color: #f1f1f1;
+}
+
+.dark-mode .home-cards{
+  color: #f1f1f1;
+}
+
+.dark-mode .contenedor-nav{
+  background-color:#19191b;
+}
+
+.dark-mode .inicio-nav:hover{
+  filter: drop-shadow(-6px 8px 3px #000);
+  box-shadow: (-6px 8px 3px #000);
+}
+
+.dark-mode .about-nav:hover {
+  text-shadow: -6px 8px 5px #000;
+}
+
+.dark-mode .logo-nav{
+  color: #f1f1f1;
+}
+
+.dark-mode .link-about a{
+  text-decoration-color: #f1f1f1;
+}
+
+.dark-mode .logo-about{
+  color: #f1f1f1;
+}
+
+.dark-mode span{
+  color: #f1f1f1;
+}
+
+.dark-mode .busqueda-serachBar{
+  background-color: #303134;
+}
+
+.dark-mode .busqueda-serachBar:hover{
+    box-shadow: -1px 2px 5px #000;
+}
+
+.dark-mode .barra-serachBar{
+  color: #fff;
+}
+
+.dark-mode .btn-serachBar{
+  color: #9aa0a6;
+}
+
+.dark-mode .fondo-duplicado p{
+  color: #f1f1f1;
+}
+
+.dark-mode .fondo-duplicado h3{
+  color: #f1f1f1;
+}
+
+.dark-mode .switch-btnSwitch{
+  background-color: #1a2a31;
+}
