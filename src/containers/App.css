@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+  height: 100%;
+  display: grid;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  background-color: #33b98c;
+}
+
+#root {
+  height: 100%;
+}
+
 #App {
-  height: 100vmax;
   text-align: center;
   padding-top: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: #33b98c;
   background-attachment: fixed;
   background-size: cover;
   transition: .3s ease all;
+  height: 100%;
 }
 
 .dark-mode{
@@ -128,4 +144,15 @@
 
 .dark-mode .switch-btnSwitch{
   background-color: #1a2a31;
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVIES) ================*/
+@media screen and (max-width: 600px) {
+  .dark-mode .switch-btnSwitch .switch__sun {
+    display: block;
+  }
+
+  .dark-mode .switch__moon {
+    display: none;
+  }
 }

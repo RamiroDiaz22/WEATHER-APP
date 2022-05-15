@@ -40,7 +40,7 @@
   border-radius: 20px;
   font-size: 25px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 .home-nav:hover{
@@ -60,7 +60,7 @@
   font-size: 25px;
   font-weight: 700;
   margin-top: 30px;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 .about-nav:hover {
@@ -71,5 +71,31 @@
 .barras-nav{
  display: flex;
  justify-content: left;
+ align-items: baseline;
 }
 
+/* ================ MEDIA QUERIES (SMALL DEVIES) ================*/
+@media screen and (max-width: 750px) {
+  .home-nav {
+    font-size: 15px;
+  }
+
+  .about-nav {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-nav {
+    display: none;
+  }
+
+  .logo-nav {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-nav {
+    font-size: 15px;
+  }
+}

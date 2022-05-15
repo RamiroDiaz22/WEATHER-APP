@@ -8,8 +8,8 @@ export default function btnSwitch({dark}) {
 
     return(
         <button className="switch-btnSwitch" id='dark' onClick={dark}>
-          <span><FaSun/></span>
-          <span><BsFillMoonFill/></span>
+          <span className="switch__sun"><FaSun/></span>
+          <span className="switch__moon"><BsFillMoonFill/></span>
         </button>
     )
 }

@@ -6,6 +6,7 @@ align-items: center;
 justify-content: space-between;
 background-color: #fdfd96;
 border-radius: 20px;
+font-size: 15px;
 }
 
 .busqueda-serachBar:hover {
@@ -20,6 +21,7 @@ border-radius: 20px;
     background-color:  transparent;
     outline: none;
     margin-left: 13px;
+    padding-left: 2%;
 }
 
 .btn-serachBar {
@@ -36,4 +38,57 @@ border-radius: 20px;
 
 .btn-serachBar:hover {
     border-left: 1px solid #9aa0a6;
+}
+
+.btn__searchbar {
+    display: none;
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVIES) ================*/
+@media screen and (max-width: 750px) {
+    .btn-serachBar {
+        display: none;
+    }
+
+    .btn__searchbar {
+        font-size: 20px;
+        display: flex;
+        border: none;
+        margin-top: 0px;
+        margin-right: 10px;
+        width: 20%;
+        height: auto;
+        background-color: transparent;
+        color: rgb(99, 99, 99);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .busqueda-serachBar {
+        width: 30vw;
+        height: 35px;
+    }
+
+    .barra-serachBar{
+        font-size: 15px;
+    }
+
+    .btn-serachBar {
+        display: none;
+    }
+
+    .btn__searchbar {
+        display: flex;
+        border: none;
+        margin-top: 0px;
+        margin-right: 10px;
+        width: 20%;
+        height: auto;
+        background-color: transparent;
+        color: rgb(99, 99, 99);
+    }
+
+    .btn__searchbar:hover {
+        border-left: 1px solid #9aa0a6;
+    }
 }

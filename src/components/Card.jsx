@@ -56,7 +56,7 @@ export default function Card (props) {
           </div>
           <div className="detalle-card">
             <Link to={`/ciudad/${props.id}`} >
-              <p >Detalle</p>
+              <p >Detail</p>
             </Link>
             </div>
           </div>

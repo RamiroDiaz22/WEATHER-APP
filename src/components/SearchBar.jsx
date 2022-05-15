@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BiSearch } from 'react-icons/bi'
 import './SearchBar.css'
 
 export default function SearchBar({onSearch}) {
@@ -21,7 +22,7 @@ export default function SearchBar({onSearch}) {
       <input
         className="barra-serachBar"
         type="text"
-        placeholder="Ciudad..."
+        placeholder="City..."
         value={city}
         name="buscar"
         onChange={handleChange}
@@ -29,7 +30,8 @@ export default function SearchBar({onSearch}) {
       <input
         className="btn-serachBar"
         type="submit"
-        value="Agregar" />
+        value="Search" />
+      <button type="submit" className="btn__searchbar"><BiSearch /></button>
     </form>
   );
 }
